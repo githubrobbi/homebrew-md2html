@@ -15,12 +15,12 @@ class Md2html < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.5/md2html-macos-arm64.zip"
-      sha256 "7cfab2fa5f85a24676f5487660d27a4b665fd7da105fe3d1b5cea957398dbd29"
+      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.6/md2html-macos-arm64.zip"
+      sha256 "daf5f8745348d320533718ea97966e4573f5c1d8768038cb4cc108327b8bd50b"
     end
     on_intel do
-      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.5/md2html-macos-x64.zip"
-      sha256 "9a7459aed7f0dc7f926e381dc8d802856b63e1d66acbb9907d441e1c69f4ed73"
+      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.6/md2html-macos-x64.zip"
+      sha256 "4708eb2f073e7fe03512e234855f013d5d293b4d9a10cc0bf9998e66a3a4784a"
     end
   end
 
@@ -29,8 +29,8 @@ class Md2html < Formula
   # cannot run there.
   on_linux do
     on_intel do
-      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.5/md2html-linux-x64.zip"
-      sha256 "4edb0e139517f5913007f8a5cf657bab784743864447104057ee5f9f1007e198"
+      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.6/md2html-linux-x64.zip"
+      sha256 "db95d16fb32141c194630519c8fa9c57e5a489e9f31e1b01cdaae5f01d4ee99d"
     end
   end
 
