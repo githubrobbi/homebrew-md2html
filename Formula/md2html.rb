@@ -15,22 +15,23 @@ class Md2html < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.6/md2html-macos-arm64.zip"
-      sha256 "daf5f8745348d320533718ea97966e4573f5c1d8768038cb4cc108327b8bd50b"
+      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.7/md2html-macos-arm64.zip"
+      sha256 "599bbf6b92163bef79d30086e0bc46dde2f718d15081abbda3a03b031fa98434"
     end
     on_intel do
-      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.6/md2html-macos-x64.zip"
-      sha256 "4708eb2f073e7fe03512e234855f013d5d293b4d9a10cc0bf9998e66a3a4784a"
+      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.7/md2html-macos-x64.zip"
+      sha256 "1586cbfb59ab6fc184688525c3593541b1fa06c6074668030e5f551b5ccf9213"
     end
   end
 
-  # Linux on x64 only: a release builds no Linux ARM binary, so Homebrew
-  # on Linux ARM finds no URL and refuses, rather than install one that
-  # cannot run there.
   on_linux do
+    on_arm do
+      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.7/md2html-linux-arm64.zip"
+      sha256 "c37b3e8ffd30c45eed3a169d4f5337ddb210a8ae86f3de5f1e2c1cec87ac410e"
+    end
     on_intel do
-      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.6/md2html-linux-x64.zip"
-      sha256 "db95d16fb32141c194630519c8fa9c57e5a489e9f31e1b01cdaae5f01d4ee99d"
+      url "https://github.com/githubrobbi/md2html/releases/download/v0.8.7/md2html-linux-x64.zip"
+      sha256 "d87f83eb8d21276da1bf5ccef61ca494ff8ccf32469059e8a6da7bdaa62de5f2"
     end
   end
 
